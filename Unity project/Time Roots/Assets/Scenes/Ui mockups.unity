@@ -428,7 +428,7 @@ GameObject:
   - component: {fileID: 735486996}
   - component: {fileID: 735486995}
   m_Layer: 5
-  m_Name: Dialogue Test Button (1)
+  m_Name: Start Time Test Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -452,8 +452,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 97.8, y: -24.5}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -118.93, y: 11.4}
+  m_SizeDelta: {x: 116.73, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &735486995
 MonoBehaviour:
@@ -499,13 +499,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1124678447}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: OpenTextPanel
-        m_Mode: 2
+      - m_Target: {fileID: 1349927571}
+        m_TargetAssemblyTypeName: Timer, Assembly-CSharp
+        m_MethodName: StartCount
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 1449004848}
-          m_ObjectArgumentAssemblyTypeName: NPCInfoTest, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Hello world!
@@ -988,10 +988,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1349927570}
   - component: {fileID: 1349927573}
+  - component: {fileID: 1349927574}
   - component: {fileID: 1349927572}
   - component: {fileID: 1349927571}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Time Counter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1029,7 +1030,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6b5a868e3c71c14aab2bd7c2faea641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timePassed: 0
+  timerUi: {fileID: 0}
+  timePassed: {x: 0, y: 0}
   timeRemaining: 0
 --- !u!114 &1349927572
 MonoBehaviour:
@@ -1128,6 +1130,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1349927569}
   m_CullTransparentMesh: 1
+--- !u!114 &1349927574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349927569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6b5a868e3c71c14aab2bd7c2faea641, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerUi: {fileID: 0}
+  timePassed: {x: 0, y: 0}
+  timeRemaining: 0
 --- !u!1 &1372525918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1443,9 +1460,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Dialogue
-
-'
+  m_text: Start Time
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1472,8 +1487,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
