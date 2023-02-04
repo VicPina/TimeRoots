@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c16efabd9b19740d19ae35539959fc13, type: 3}
   m_Name: Shaggy
   m_EditorClassIdentifier: 
-  mom: {fileID: 0}
-  dad: {fileID: 0}
-  name: 
-  hairColor: 
+  mom: {fileID: 11400000, guid: 2c43f7d86fcce4b21b6c4fd61c9cc786, type: 2}
+  dad: {fileID: 11400000, guid: 73fb103a0d8ed4755b0a8e4387d05302, type: 2}
+  name: Shaggy
+  hairColor: Brown
+  gender: M
   race: 
   artwork: {fileID: 0}
-  age: 0
+  age: 7

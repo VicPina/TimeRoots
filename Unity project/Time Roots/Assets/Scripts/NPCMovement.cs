@@ -13,9 +13,12 @@ public class NPCMovement : MonoBehaviour
 
     public int status = 0;
 
+    public BasicNPC NPC;
+
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
+        Debug.Log(NPC.age);
     }
 
     void Update()

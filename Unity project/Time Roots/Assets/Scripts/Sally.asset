@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mom: {fileID: 0}
   dad: {fileID: 0}
-  name: 
-  hairColor: 
+  name: Sally
+  hairColor: Brown
+  gender: F
   race: 
   artwork: {fileID: 0}
-  age: 0
+  age: 34
