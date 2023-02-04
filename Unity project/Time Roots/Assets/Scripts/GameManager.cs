@@ -6,25 +6,17 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public RectTransform npcPanel;
-    
-    private void SetNpcPanel()
-    {
-        // NPC Dialogue
-        // NPC Name
-        // NPC Avatar
-
-    }
+    public Transform npcPanel;
 
     public void OpenTextPanel(NPCInfoTest npcToRead)
     {
-        foreach (RectTransform uiElement in npcPanel)
-        {
-            if (uiElement.gameObject.tag == "NPC Name") { uiElement.GetComponent<TextMeshProUGUI>().text = npcToRead.characterName; }
-            if (uiElement.gameObject.tag == "NPC Avatar") { uiElement.GetComponent<TextMeshProUGUI>().text = npcToRead.characterName; }
-            if (uiElement.gameObject.tag == "NPC Name") { uiElement.GetComponent<Image>().sprite = npcToRead.uiAvatar; }
-        }
         npcPanel.gameObject.SetActive(true);
+        foreach (Transform uiElement in npcPanel)
+        {
+            if (uiElement.gameObject.tag == "NPC Name") { Debug.Log("Found Name"); uiElement.GetComponent<TextMeshProUGUI>().text = npcToRead.characterName; }
+            if (uiElement.gameObject.tag == "NPC Avatar") { Debug.Log("Found dialogue"); uiElement.GetComponent<Image>().sprite = npcToRead.uiAvatar; }
+            if (uiElement.gameObject.tag == "NPC Dialogue") { Debug.Log("Found Pic"); uiElement.GetComponent<TextMeshProUGUI>().text = npcToRead.dialogueMsg; }
+        }
         //textMesh.text = message;
     }
 }
