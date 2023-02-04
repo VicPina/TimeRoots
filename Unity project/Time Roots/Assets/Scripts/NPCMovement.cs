@@ -20,6 +20,10 @@ public class NPCMovement : MonoBehaviour
 
     void Update()
     {
+        movement();
+    }
+
+    void movement(){
         switch (status)
         {
             case 0:
