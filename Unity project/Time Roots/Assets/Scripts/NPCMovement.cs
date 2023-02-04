@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class NPCMovement : MonoBehaviour
 {
+    public BasicNPC NPC;
     public Transform target0;
     public Transform target1;
     public Transform target2;
     public Transform target3;
     Rigidbody2D rigidbody2D;
     Vector2 direction;
-
     public int status = 0;
-
-    public BasicNPC NPC;
 
     void Start()
     {
@@ -67,5 +65,10 @@ public class NPCMovement : MonoBehaviour
                 }
                 break;
         }
+    }
+
+    void updateAnimation()
+    {
+        // To-do
     }
 }
