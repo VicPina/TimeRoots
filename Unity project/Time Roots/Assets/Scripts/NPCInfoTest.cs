@@ -11,11 +11,10 @@ public class NPCInfoTest : MonoBehaviour
     public Sprite uiAvatar;
 
     // Audio test *unrelated
-    //[Space(10)]
-    //public AudioManager audioManager;
+    [Space(10)]
+    public AudioManager audioManager;
     public void PlayAudioOnceTest(string audio)
     {
-        AudioManager audioManager = FindObjectOfType<AudioManager>();
         AudioSource source = audioManager.FindSound(audio);
         Debug.Log(source.clip);
         source.PlayOneShot(source.clip);
