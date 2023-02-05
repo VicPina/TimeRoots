@@ -225,7 +225,7 @@ MonoBehaviour:
   numberofTargets: 4
 --- !u!95 &6393640192164229779
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -233,7 +233,7 @@ Animator:
   m_GameObject: {fileID: 6393640192164229789}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ea2570f6f914e44bc8bf952a65e6a969, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7b4c86e06a1c54994a93456352f5fd8a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -242,7 +242,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!50 &6393640192164229778
 Rigidbody2D:
   serializedVersion: 4
