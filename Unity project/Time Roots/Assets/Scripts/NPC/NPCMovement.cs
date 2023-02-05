@@ -11,16 +11,30 @@ public class NPCMovement : MonoBehaviour
     public Transform target3;
     Rigidbody2D rigidbody2D;
     Vector2 direction;
+
+    public Animator anim;
+
     public int status = 0;
 
     // The places that the NPCs visit
     public Transform[] targets;
     public int numberofTargets = 4;
 
+    // private moveDirection = new Vector2;
+
+
+
+    void Start()
+    {
+        // BasicNPC basicNPC = GetComponent<BasicNPC>();
+        rigidbody2D = GetComponent<Rigidbody2D>();
+
+
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         //Debug.Log(NPC.age);
+
 
         targets = new Transform[numberofTargets];
 
@@ -30,6 +44,22 @@ public class NPCMovement : MonoBehaviour
         {
             targets[i] = gameObject.GetComponent<Transform>();
         }
+
+        int id=0;
+
+        // id = basicNPC.id;
+        // Debug.Log(id); can fetch from basicNPC
+    }
+
+
+    
+    void Update()
+    {
+        movement();
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
+        // moveDirection = new Vector2(moveX, moveY).normalized;
+        animate();
     }
 
     void Update()
@@ -60,6 +90,8 @@ public class NPCMovement : MonoBehaviour
     void moveTo(Transform target){
         direction = (target.position - transform.position).normalized;
         rigidbody2D.velocity = direction * 3;
+        // Debug.Log(direction.x);
+
 
         if (Vector2.Distance(transform.position, target.position) < 1f)
         {
@@ -69,8 +101,11 @@ public class NPCMovement : MonoBehaviour
         }
     }
 
-    void updateAnimation()
-    {
-        // To-do
+    void animate(){
+        anim.SetFloat("AnimMoveX", direction.x);
+        anim.SetFloat("AnimMoveY", direction.y);
     }
 }
+
+}
+
