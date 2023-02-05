@@ -814,9 +814,10 @@ MonoBehaviour:
   NPCSprite: {fileID: 6492572921377855227, guid: b79f22cd227d76c4b9c9986dcf0514f0, type: 3}
   NPCName: Test V
   messageToShow: 
-  multipleDialogues: 0
+  multipleDialogues: 1
   dialogueMessages:
   - Hallo
+  - Warld
   numConversations: 0
 --- !u!1 &1528141145
 GameObject:
@@ -1391,6 +1392,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3201122051510498056, guid: 9b4cb0572a59f94479006ace3a27762d, type: 3}
+      propertyPath: multipleDialogues
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201122051510498056, guid: 9b4cb0572a59f94479006ace3a27762d, type: 3}
+      propertyPath: dialogueMessages.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201122051510498056, guid: 9b4cb0572a59f94479006ace3a27762d, type: 3}
+      propertyPath: dialogueMessages.Array.data[1]
+      value: You
+      objectReference: {fileID: 0}
     - target: {fileID: 3201122051510498057, guid: 9b4cb0572a59f94479006ace3a27762d, type: 3}
       propertyPath: m_RootOrder
       value: 1

@@ -23,11 +23,9 @@ public class BasicNPC : MonoBehaviour
     public string[] dialogueMessages;
     [HideInInspector]
     public int numConversations; //To indicate which set of dialog tp show - currently not being used but here if we have time. 
-    // MARK - Interactable
-    private Button click;
     private void Awake()
     {
-        click = GetComponentInChildren<Button>();
+        //click = GetComponentInChildren<Button>();
         numConversations = 0;
         messageToShow = dialogueMessages[numConversations];
     }
@@ -39,11 +37,15 @@ public class BasicNPC : MonoBehaviour
             messageToShow = dialogueMessages[numConversations];
         }
     }
-    /*/ MARK - Dialogue
+    /*
+     * 
+     * / MARK - Dialogue
     public GameObject DialoguePanel;
     //public Message[] dialogueMessages; //The list of dialoge to be presented
     public Actor[] dialogueParticipants;
 
+    // MARK - Interactable
+    private Button click;
 
     //Check that an NPC cant be a parent of thier own: NPC rules
 
