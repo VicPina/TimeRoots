@@ -1,12 +1,9 @@
 fileFormatVersion: 2
-guid: 351139c6a042f6b468ae45084d64c721
+guid: 67b705043ee3244388e45002704a4b24
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - mom: {fileID: 11400000, guid: 2c43f7d86fcce4b21b6c4fd61c9cc786, type: 2}
-  - dad: {fileID: 11400000, guid: 73fb103a0d8ed4755b0a8e4387d05302, type: 2}
-  - artwork: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
