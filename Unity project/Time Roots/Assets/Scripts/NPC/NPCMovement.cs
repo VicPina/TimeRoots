@@ -20,7 +20,7 @@ public class NPCMovement : MonoBehaviour
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
-        Debug.Log(NPC.age);
+        //Debug.Log(NPC.age);
 
         targets = new Transform[numberofTargets];
 
