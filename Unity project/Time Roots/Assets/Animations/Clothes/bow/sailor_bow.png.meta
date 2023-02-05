@@ -46591,33 +46591,33 @@ TextureImporter:
       sailor_bow_2141: -1915263119
       sailor_bow_183: -986572902
       sailor_bow_746: -2128403353
+      sailor_bow_989: 647857496
       sailor_bow_557: -1671328886
       sailor_bow_952: 1053634298
+      sailor_bow_1750: 1306544204
+      sailor_bow_1770: 1555844842
       sailor_bow_1397: 2014923865
       sailor_bow_731: -1571075578
-      sailor_bow_1750: 1306544204
-      sailor_bow_1202: -163116277
-      sailor_bow_989: 647857496
       sailor_bow_1192: -1937728297
       sailor_bow_1008: 180441219
       sailor_bow_1353: -80930237
-      sailor_bow_1770: 1555844842
       sailor_bow_1879: 308844116
       sailor_bow_513: -1614346226
-      sailor_bow_569: -919851808
-      sailor_bow_65: -1168333233
-      sailor_bow_860: 767961349
       sailor_bow_1826: 1586284334
-      sailor_bow_859: -1308804284
+      sailor_bow_65: -1168333233
+      sailor_bow_2160: 332680793
+      sailor_bow_569: -919851808
       sailor_bow_1522: -1247750015
       sailor_bow_57: 1838094886
       sailor_bow_770: 1554939046
-      sailor_bow_1081: -308909302
+      sailor_bow_860: 767961349
+      sailor_bow_859: -1308804284
       sailor_bow_1324: -1280652069
       sailor_bow_1678: -1571716831
+      sailor_bow_1081: -308909302
       sailor_bow_1929: -1991350136
       sailor_bow_1913: -1790636427
-      sailor_bow_2160: 332680793
+      sailor_bow_1202: -163116277
       sailor_bow_327: -414775761
       sailor_bow_123: -1331887917
       sailor_bow_519: 1774651660
@@ -46778,10 +46778,10 @@ TextureImporter:
       sailor_bow_1058: -1864469367
       sailor_bow_2062: 1076232779
       sailor_bow_178: 1535243842
-      sailor_bow_1846: -198124776
       sailor_bow_2174: 1978528086
       sailor_bow_1799: 619665086
       sailor_bow_363: 1860492213
+      sailor_bow_1846: -198124776
       sailor_bow_1855: -469878189
       sailor_bow_2170: -1316833045
       sailor_bow_228: -1414393209
@@ -47033,8 +47033,8 @@ TextureImporter:
       sailor_bow_1697: 1229420376
       sailor_bow_133: 306086941
       sailor_bow_522: -2079560343
-      sailor_bow_667: 1991187803
       sailor_bow_975: -1142955396
+      sailor_bow_667: 1991187803
       sailor_bow_683: -426239630
       sailor_bow_87: -1656498957
       sailor_bow_96: -1745370043
@@ -47065,20 +47065,20 @@ TextureImporter:
       sailor_bow_2193: 1564891983
       sailor_bow_14: 1159587886
       sailor_bow_697: -1759233900
+      sailor_bow_1498: -1655777474
       sailor_bow_959: -1460053873
       sailor_bow_618: 1282999693
       sailor_bow_1072: -1057817897
       sailor_bow_1123: -1423373881
       sailor_bow_44: -1562266220
-      sailor_bow_1294: 2058604940
       sailor_bow_1828: -1925214694
-      sailor_bow_1498: -1655777474
+      sailor_bow_1294: 2058604940
+      sailor_bow_1767: -432121647
       sailor_bow_909: 1660672163
       sailor_bow_324: 268035354
-      sailor_bow_1452: 780787838
       sailor_bow_2022: 2096227946
       sailor_bow_947: 2011875677
-      sailor_bow_1767: -432121647
+      sailor_bow_1452: 780787838
       sailor_bow_1549: 1340431591
       sailor_bow_693: -55418935
       sailor_bow_401: 574962689
@@ -47107,20 +47107,20 @@ TextureImporter:
       sailor_bow_468: 749373883
       sailor_bow_1330: 1613125345
       sailor_bow_119: 1674770015
-      sailor_bow_460: 349627419
+      sailor_bow_677: 429252720
       sailor_bow_1519: -1130026560
       sailor_bow_1446: -2005723782
-      sailor_bow_677: 429252720
+      sailor_bow_460: 349627419
+      sailor_bow_1531: -1195031182
       sailor_bow_973: -1723762529
       sailor_bow_1672: -2075324013
       sailor_bow_606: -1721151853
-      sailor_bow_1531: -1195031182
-      sailor_bow_420: -1047449514
-      sailor_bow_672: -1004739696
-      sailor_bow_1631: 220440347
-      sailor_bow_1821: -108428573
       sailor_bow_1965: 874332674
+      sailor_bow_420: -1047449514
+      sailor_bow_1631: 220440347
       sailor_bow_1958: 241863495
+      sailor_bow_672: -1004739696
+      sailor_bow_1821: -108428573
       sailor_bow_144: -239440831
       sailor_bow_1495: -1865377825
       sailor_bow_50: 929717605
@@ -47580,11 +47580,11 @@ TextureImporter:
       sailor_bow_1527: 225181826
       sailor_bow_1780: -615412731
       sailor_bow_1193: -1528920082
-      sailor_bow_738: -2070028897
-      sailor_bow_2005: -1661227685
       sailor_bow_1777: -1466688614
+      sailor_bow_738: -2070028897
       sailor_bow_2050: 1317960369
       sailor_bow_2179: -899374169
+      sailor_bow_2005: -1661227685
       sailor_bow_1071: -1375628765
       sailor_bow_433: -958894193
       sailor_bow_1375: -1785525677
@@ -47614,20 +47614,19 @@ TextureImporter:
       sailor_bow_644: 182811039
       sailor_bow_194: 2082050948
       sailor_bow_1791: 1995653134
-      sailor_bow_1099: 1647406609
       sailor_bow_1254: 517452997
       sailor_bow_688: -892084283
-      sailor_bow_364: 901416427
-      sailor_bow_806: -706281835
+      sailor_bow_1099: 1647406609
       sailor_bow_995: -646581503
-      sailor_bow_1588: 879763218
+      sailor_bow_364: 901416427
       sailor_bow_857: 1151632046
       sailor_bow_414: -792824669
       sailor_bow_1599: -511830385
       sailor_bow_2120: -505744582
+      sailor_bow_806: -706281835
       sailor_bow_374: -1778808064
+      sailor_bow_1667: -2056991099
       sailor_bow_895: 676056028
-      sailor_bow_1432: -1614842825
       sailor_bow_1266: 1364865052
       sailor_bow_1555: -1940011167
       sailor_bow_1490: -886149628
@@ -47638,18 +47637,19 @@ TextureImporter:
       sailor_bow_156: -545731644
       sailor_bow_1972: -1085777875
       sailor_bow_2113: 1971482891
-      sailor_bow_1667: -2056991099
+      sailor_bow_1432: -1614842825
       sailor_bow_342: 1512495662
       sailor_bow_855: -237161118
       sailor_bow_986: -706866653
       sailor_bow_1358: 1360047730
-      sailor_bow_85: -106369340
+      sailor_bow_1588: 879763218
       sailor_bow_476: 1859379779
       sailor_bow_176: -281030519
       sailor_bow_1986: 866926677
-      sailor_bow_1392: -982133693
+      sailor_bow_85: -106369340
       sailor_bow_234: 1236344263
       sailor_bow_314: -1488896564
+      sailor_bow_1392: -982133693
       sailor_bow_1394: 367813190
       sailor_bow_1331: 1559240241
       sailor_bow_709: -1990244894
@@ -47668,19 +47668,19 @@ TextureImporter:
       sailor_bow_2012: 699904241
       sailor_bow_1088: 1327535513
       sailor_bow_1802: -1336620903
-      sailor_bow_1843: -625711181
       sailor_bow_1997: -1566314751
+      sailor_bow_1843: -625711181
       sailor_bow_1118: -255803884
-      sailor_bow_2122: 929571947
       sailor_bow_1317: -69642960
       sailor_bow_1981: 818978603
       sailor_bow_1078: -809272383
       sailor_bow_2094: -270295451
-      sailor_bow_2129: -1188129368
+      sailor_bow_2122: 929571947
       sailor_bow_489: -1451811189
       sailor_bow_1946: -1739475886
       sailor_bow_666: 1389366009
       sailor_bow_1987: -1064353413
+      sailor_bow_2129: -1188129368
       sailor_bow_534: 2062144975
       sailor_bow_762: -954562251
       sailor_bow_1749: 1425084088
@@ -47729,11 +47729,11 @@ TextureImporter:
       sailor_bow_2061: -1177319902
       sailor_bow_1639: 355021360
       sailor_bow_863: 346879253
-      sailor_bow_341: -478550602
+      sailor_bow_1292: 1054190620
       sailor_bow_1023: 282519596
       sailor_bow_868: 509082357
+      sailor_bow_341: -478550602
       sailor_bow_1515: 914016972
-      sailor_bow_1292: 1054190620
       sailor_bow_146: -2051356000
       sailor_bow_295: -1531618093
       sailor_bow_559: -2086197300
@@ -47744,11 +47744,11 @@ TextureImporter:
       sailor_bow_1196: 633025128
       sailor_bow_1755: 2012657243
       sailor_bow_883: -37824818
+      sailor_bow_1834: -1404872541
       sailor_bow_1782: 1601542467
       sailor_bow_572: -1102963524
       sailor_bow_1812: -1639839725
       sailor_bow_1783: 1017078504
-      sailor_bow_1834: -1404872541
       sailor_bow_1136: 1696186315
       sailor_bow_1259: 967042136
       sailor_bow_591: 760079049
@@ -47762,22 +47762,22 @@ TextureImporter:
       sailor_bow_1512: -47661538
       sailor_bow_45: 1936465821
       sailor_bow_326: 265043370
-      sailor_bow_1173: 1703828585
+      sailor_bow_943: -366608123
       sailor_bow_780: 748550356
       sailor_bow_889: 401722083
-      sailor_bow_998: -1067304391
       sailor_bow_2112: -1480988542
-      sailor_bow_1177: 1872076685
-      sailor_bow_943: -366608123
-      sailor_bow_1737: 1322152769
-      sailor_bow_1850: 1009296601
+      sailor_bow_2117: -749066196
+      sailor_bow_1173: 1703828585
       sailor_bow_2034: 515764676
+      sailor_bow_1737: 1322152769
+      sailor_bow_998: -1067304391
+      sailor_bow_1177: 1872076685
       sailor_bow_2181: 382463731
       sailor_bow_1762: 1609658356
+      sailor_bow_1850: 1009296601
       sailor_bow_1804: -1942932046
       sailor_bow_94: -1530363072
       sailor_bow_229: 609220115
-      sailor_bow_2117: -749066196
       sailor_bow_2008: -1570768320
       sailor_bow_409: -1981145415
       sailor_bow_1952: 1096187770
@@ -47792,19 +47792,19 @@ TextureImporter:
       sailor_bow_713: 379319124
       sailor_bow_258: 1016703082
       sailor_bow_104: -590464918
+      sailor_bow_543: -771212699
       sailor_bow_90: 850250862
-      sailor_bow_639: -891007932
       sailor_bow_609: -380798346
+      sailor_bow_639: -891007932
       sailor_bow_129: -1817539066
       sailor_bow_256: 1398235690
       sailor_bow_856: -2021017122
       sailor_bow_347: -765864494
-      sailor_bow_611: 1028810526
       sailor_bow_1528: 766323884
-      sailor_bow_543: -771212699
+      sailor_bow_611: 1028810526
       sailor_bow_1383: 2004047639
-      sailor_bow_1310: -1455559159
       sailor_bow_1458: -176144624
+      sailor_bow_1310: -1455559159
       sailor_bow_2173: 2091963049
       sailor_bow_977: -1910892853
       sailor_bow_789: 1449806879
