@@ -22,14 +22,6 @@ public class NPCMovement : MonoBehaviour
 
     // private moveDirection = new Vector2;
 
-
-
-    void Start()
-    {
-        // BasicNPC basicNPC = GetComponent<BasicNPC>();
-        rigidbody2D = GetComponent<Rigidbody2D>();
-
-
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
@@ -60,11 +52,6 @@ public class NPCMovement : MonoBehaviour
         float moveY = Input.GetAxisRaw("Vertical");
         // moveDirection = new Vector2(moveX, moveY).normalized;
         animate();
-    }
-
-    void Update()
-    {
-        movement();
     }
 
     void movement(){
@@ -106,6 +93,3 @@ public class NPCMovement : MonoBehaviour
         anim.SetFloat("AnimMoveY", direction.y);
     }
 }
-
-}
-
